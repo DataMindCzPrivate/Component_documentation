@@ -42,7 +42,7 @@ In outpu file you will receive following columns:
 * 	**Unique_products** – number of unique products purchased by customer
 * 	**Monetary_sum** – total amount of money spent by customer in selected period
 * 	**Prediction_probability** – probability of specific customer purchase in next 3 months. Number 1 means 100% probability and number 0 means 0% probability.
-* 	**Prediction_probability_quantiles** - Decile of probability of purchase in the next 3 months.
+* 	**Prediction_probability_quantiles** - Decile of probability of purchase in the next 3 months. Here you can select customers from highest probability deciles for your direct marketing.
 * 	**Predicted_value** – customers monetary potential in next 3 months
 
 * 	Optionaly we can prepare for you a tailor-made Interpretation (Custom service for extra fee)

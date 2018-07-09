@@ -9,11 +9,11 @@ Prediction and segmentation model that separates good from the bad customers, ba
 Transactional table with *16 months of current history following attributes (columns) in csv or txt*:
 Following structure, order of columns and their format are crucial for successful run of the component. **Make sure your data follow the prescription:**
 
-* •	Purchase ID
-* •	Customer ID
-* •	Purchase Date (in YYYYMMDD format =>e.g.  20181231)!!!
-* •	Purchase Value (Money)
-* •	Product ID
+* 	Purchase ID
+* 	Customer ID
+* 	Purchase Date (in YYYYMMDD format =>e.g.  20181231)!!!
+* 	Purchase Value (Money)
+* 	Product ID
 
 For data uploading you can use Keboola’s extractor component called CSV Import.
 
@@ -35,17 +35,17 @@ e.	Click on Run (in upper right section)
 
 In outpu file you will receive following columns:
 
-* o	**Customer ID**
-* o	**Recency** – last purchase from selected period in days
-* o	**Transactions** – number of purchases customer has made in selected period
-* o	**Unique_days** – number of different days customer has made any purchase (may differ – be smaller than Transactions)
-* o	**Unique_products** – number of unique products purchased by customer
-* o	**Monetary_sum** – total amount of money spent by customer in selected period
-* o	**Prediction_probability** – probability of specific customer purchase in next 3 months. Number 1 means 100% probability and number 0 means 0% probability.
-* o	**Prediction_probability_quantiles** - Decile of probability of purchase in the next 3 months.
-* o	**Predicted_value** – customers monetary potential in next 3 months
+* 	**Customer ID**
+* 	**Recency** – last purchase from selected period in days
+* 	**Transactions** – number of purchases customer has made in selected period
+* 	**Unique_days** – number of different days customer has made any purchase (may differ – be smaller than Transactions)
+* 	**Unique_products** – number of unique products purchased by customer
+* 	**Monetary_sum** – total amount of money spent by customer in selected period
+* 	**Prediction_probability** – probability of specific customer purchase in next 3 months. Number 1 means 100% probability and number 0 means 0% probability.
+* 	**Prediction_probability_quantiles** - Decile of probability of purchase in the next 3 months.
+* 	**Predicted_value** – customers monetary potential in next 3 months
 
-•	Optionaly we can prepare for you a tailor-made Interpretation (Custom service for extra fee)
+* 	Optionaly we can prepare for you a tailor-made Interpretation (Custom service for extra fee)
 
 ### POSSIBLE ERROR MESSAGES
 

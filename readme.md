@@ -24,11 +24,11 @@ For data uploading you can use Keboola’s extractor component called CSV Import
 Upload file with your transaction data. Be careful to declare correct delimiter. You can check if your data were imported correctly by clicking to you imported data name and selecting “Data sample” sheet.
 3.	Go to Applications -> Predictive RFM Segmentation -> New configuration
 4.	Configuration:  after naming your configuration
-a.	 you click on “+ New Table Input” in Table input mapping section and select your file.
-b.	You omit Table Output mapping section altogether and left it unmapped.
-c.	In Configuration section you fill in Key you received from DataMind. 
-d.	Click on “Save”
-e.	Click on Run (in upper right section)
+* a.	 you click on “+ New Table Input” in Table input mapping section and select your file.
+* b.	You omit Table Output mapping section altogether and left it unmapped.
+* c.	In Configuration section you fill in Key you received from DataMind. 
+* d.	Click on “Save”
+* e.	Click on Run (in upper right section)
 5.	After component finish its run go to Storage -> Files : your processed file will be named output_table.csv.gz - > you can download it now.
 
 ### WHAT IS IN OUTPUT FILE + INTERPRETATION
@@ -42,7 +42,8 @@ In outpu file you will receive following columns:
 * 	**Unique_products** – number of unique products purchased by customer
 * 	**Monetary_sum** – total amount of money spent by customer in selected period
 * 	**Prediction_probability** – probability of specific customer purchase in next 3 months. Number 1 means 100% probability and number 0 means 0% probability.
-* 	**Prediction_probability_quantiles** - Decile of probability of purchase in the next 3 months.
+* 	**Prediction_probability_quantiles** - Decile of probability of purchase in the next 3 months. Here you can select customers from highest probability deciles for your direct marketing.
+
 * 	**Predicted_value** – customers monetary potential in next 3 months
 
 * 	Optionaly we can prepare for you a tailor-made Interpretation (Custom service for extra fee)

@@ -1,6 +1,6 @@
 ﻿
  						            
-# PREDICTIVE RFM SEGMENTATION	2018
+# PREDICTIVE RFM SEGMENTATION	
  
 ### PREDICTIVE RFM SEGMENTATION – WHAT IT IS
 Prediction and segmentation model that separates good from the bad customers, based on transactional data. RFM stands for recency, frequency and monetary, but we provide much more: prediction of future value and future probability of purchase based on current transactions. 
@@ -70,3 +70,5 @@ In outpu file you will receive following columns:
 *"Your database is way too large. Algorithm accepts 1.000.000 rows as a maximum for automated segmentation. Contact www.datamind.cz for custom projects"*
 -	You have high amount of data. Keboola component is not made for customers with so many transactions. Please contact DataMind for custom solution.
 
+*"Prediction model is too weak. Roc score of prediction model is:  " or "TOO FEW POSITIVE CASES"*
+- Computed predictive models are not good enough to make predictions. You will need different set of data.

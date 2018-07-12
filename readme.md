@@ -6,7 +6,7 @@
 Prediction and segmentation model that separates good from the bad customers, based on transactional data. RFM stands for recency, frequency and monetary, but we provide much more: prediction of future value and future probability of purchase based on current transactions. 
 
 ### WHAT DO YOU NEED = INPUT DATA
-Transactional table with *16 months of current history following attributes (columns) in csv or txt*:
+Transactional table with * at least 17 months of current history following attributes (columns) in csv or txt*:
 Following structure, order of columns and their format are crucial for successful run of the component. **Make sure your data follow the prescription:**
 
 * 	Purchase ID

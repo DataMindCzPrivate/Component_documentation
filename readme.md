@@ -11,7 +11,7 @@ Following structure, order of columns and their format are crucial for successfu
 
 * 	Purchase ID
 * 	Customer ID
-* 	Purchase Date (in YYYYMMDD format =>e.g.  20181231)!!!
+* 	Purchase Date (in YYYY-MM-DD format =>e.g.  2018-12-31)!!!
 * 	Purchase Value (Money)
 * 	Product ID
 

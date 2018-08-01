@@ -2,10 +2,10 @@
  						            
 # PREDICTIVE RFM SEGMENTATION	
  
+ You can watch also **our walkthrough video** for this component here: https://www.youtube.com/watch?v=YGyhfCxdt-4
+ 
 ### PREDICTIVE RFM SEGMENTATION – WHAT IT IS
 Prediction and segmentation model that separates good from the bad customers, based on transactional data. RFM stands for recency, frequency and monetary, but we provide much more: prediction of future value and future probability of purchase based on current transactions. 
-
-You can watch also our walkthrough video for this component here: https://www.youtube.com/watch?v=YGyhfCxdt-4
 
 ### WHAT DO YOU NEED = INPUT DATA
 
